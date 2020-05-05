@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ShipMovements : MonoBehaviour
 {
@@ -28,6 +29,17 @@ public class ShipMovements : MonoBehaviour
             } else if(Input.GetKeyDown(KeyCode.DownArrow) && transform.position.y > minHeight){
                 targetPos = new Vector2(transform.position.x , transform.position.y - Yincrement);
                 transform.position = targetPos;
+            }else if (Input.GetKey(KeyCode.W) && transform.position.y < minHeight){
+                targetPos = new Vector2(transform.position.x , transform.position.y + Yincrement);
+                transform.position = targetPos;
+            }else if (Input.GetKey(KeyCode.S) && transform.position.y > minHeight){
+                targetPos = new Vector2(transform.position.x , transform.position.y - Yincrement);
+                transform.position = targetPos;
             }
+        
+        if(transform.position.x < -14){
+            //Destroy(gameObject);
+            SceneManager.LoadScene("GameOverScene");
+        }
     }
 }
