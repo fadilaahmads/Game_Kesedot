@@ -111,10 +111,10 @@ MonoBehaviour:
     y: 30
     width: 1366
     height: 635
-  m_MinSize: {x: 908, y: 421}
-  m_MaxSize: {x: 22003, y: 10021}
+  m_MinSize: {x: 909, y: 421}
+  m_MaxSize: {x: 22004, y: 10021}
   vertical: 1
-  controlID: 5272
+  controlID: 227
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -138,10 +138,10 @@ MonoBehaviour:
     y: 0
     width: 1366
     height: 635
-  m_MinSize: {x: 908, y: 421}
-  m_MaxSize: {x: 22003, y: 10021}
+  m_MinSize: {x: 909, y: 421}
+  m_MaxSize: {x: 22004, y: 10021}
   vertical: 0
-  controlID: 5273
+  controlID: 228
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -166,7 +166,7 @@ MonoBehaviour:
   m_MinSize: {x: 201, y: 421}
   m_MaxSize: {x: 4001, y: 8021}
   vertical: 1
-  controlID: 5279
+  controlID: 234
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -530,9 +530,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 86430000
-      m_LastClickedID: 17286
-      m_ExpandedIDs: b0e4ffffc6e9fffffaefffff0ef0ffff4cf2ffffc8f2ffffcaf4ffff10f6ffff4cf7ffff28f8ffff9cfaffff6cfbffff16340000ca360000ec36000010370000043800006a380000c6380000e83800000a3900002a390000703900004e41000092410000be430000
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 6cfbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -595,20 +595,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Scenes
   m_ViewMode: 1
   m_StartGridSize: 53
   m_LastFolders:
-  - Assets
+  - Assets/Scenes
   m_LastFoldersGridSize: 53
   m_LastProjectPath: E:\UII\Pengembangan Gim\Tugas\Kesedot\Kesedot
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: d4340000
-    m_LastClickedID: 13524
-    m_ExpandedIDs: 00000000d434000000ca9a3b
+    m_SelectedIDs: e2340000
+    m_LastClickedID: 13538
+    m_ExpandedIDs: 00000000dc34000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -636,7 +636,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000d434000000ca9a3b
+    m_ExpandedIDs: 00000000dc34000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -688,7 +688,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 256.88623}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 53
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 110
@@ -729,4 +729,4 @@ MonoBehaviour:
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 276
+  m_LastVerticalScrollValue: 0
